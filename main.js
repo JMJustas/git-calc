@@ -10,6 +10,9 @@ function main() {
 		case '+':
 			console.log(sum(arg1, arg2))
 			break;
+        case '-':
+            console.log((arg1 - arg2));
+            break;
 		default:
 			console.err('Unknown operation: ' + operation)	
 			process.exit(1);
